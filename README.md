@@ -1,5 +1,5 @@
 # FACIAL-KEYPOINTS-DETECTION
-Facial Keypoint detection is an important application in computer vision. This particular application has its contribution in many other applications such as face recognition, drowsiness detection, facial expression anlysis, 3D face modelling and most importantly in filters like snapchat filters.
+Facial keypoints detection is an important application in computer vision. This particular application has its contribution in many other applications such as face recognition, drowsiness detection, facial expression anlysis, 3D face modelling and most importantly in filters like snapchat filters.
 
 This particular project detects 15 key-points in a face using CNN model and data-augmentation techniques which hepled in increasing the dataset and at the same time to get images with various transformations.
 
