@@ -3,14 +3,14 @@ Facial Keypoint detection is an important application in computer vision. This p
 
 This particular project detects 15 key-points in a face using CNN model and data-augmentation techniques which hepled in increasing the dataset and at the same time to get images with various transformations.
 
-###**Data Augmentation Techniques Applied**
+### **Data Augmentation Techniques Applied**
 1. Horizontal Flipping.
 2. Rotation Augmentation.
 3. Brightness Alteration.
 4. Horizontal and Vertical Shift.
 5. Adding Random Noise.
 
-###**CNN Model**
+### **CNN Model**
 1. A 12-layer CNN architecture is used followed by 2 fully connected layers.
 2. Leaked ReLu activations in convolutional layers.
 3. Relu activation in first dense layer.
