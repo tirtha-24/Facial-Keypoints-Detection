@@ -11,13 +11,16 @@ This particular project detects 15 key-points in a face using CNN model and data
 5. Adding Random Noise.
 
 ### **CNN Model**
-1. A 12-layer CNN architecture is used followed by 2 fully connected layers.
-2. Leaked ReLu activations in convolutional layers.
-3. Relu activation in first dense layer.
-4. Linear activation in second dense layer.
-5. Each convolutional layer is followed by batch normalization and max-pooling.
-6. A dropout layer is also added between the dense layers.
-7. Output layer consists of 30 units, resembling x and y coordinates of 15 key-points.
+1. 96x96x1 are the input dimensions.
+2. A 12-layer CNN architecture is used followed by 2 fully connected layers.
+3. Leaked ReLu activations in convolutional layers.
+4. Relu activation in first dense layer.
+5. Linear activation in second dense layer.
+6. Each convolutional layer is followed by batch normalization and max-pooling.
+7. A dropout layer is also added between the dense layers.
+8. Output layer consists of 30 units, resembling x and y coordinates of 15 key-points.
 
 Metrics used are mean absolute error and accuracy.
+
+**Note**:This is a kaggle problem statement and [dataset] (https://www.kaggle.com/c/facial-keypoints-detection/data) is taken from the same.
 
