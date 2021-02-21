@@ -22,5 +22,5 @@ This particular project detects 15 key-points in a face using CNN model and data
 
 Metrics used are mean absolute error and accuracy.
 
-**Note**:This is a kaggle problem statement and [dataset] (https://www.kaggle.com/c/facial-keypoints-detection/data) is taken from the same.
+**Note**:This is a kaggle problem statement and [dataset](https://www.kaggle.com/c/facial-keypoints-detection/data) is taken from the same.
 
